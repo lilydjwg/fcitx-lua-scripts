@@ -4,6 +4,8 @@ function LookupDate(input)
     fmt = "%Y年%m月%d日"
   elseif input == 't' then
     fmt = "%Y-%m-%d %H:%M:%S"
+  elseif input == 'd' then
+    fmt = "%Y-%m-%d"
   end
   return os.date(fmt)
 end
