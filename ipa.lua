@@ -63,6 +63,7 @@ mapping = {
   ["th"] = "θ",
   ["z"] = "z",
   ["~"] = "̃",
+  ["^h"] = "ʰ",
 }
 
 function translateIPA(a)
